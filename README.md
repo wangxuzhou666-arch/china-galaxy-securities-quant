@@ -97,6 +97,27 @@ does not require any external data files.
 
 ---
 
+## Data and confidentiality
+
+This repository contains **only publicly available market data** sourced
+at runtime from Yahoo Finance via the `yfinance` Python package. It
+contains:
+
+- **No** proprietary or non-public market data
+- **No** China Galaxy Securities internal data, customer data, account
+  data, or trading positions
+- **No** internal alpha signals, internal models, or internal IP belonging
+  to China Galaxy Securities or any third party
+
+The notebook is published as a personal research artifact written by
+the author during the internship period. The methodology — hybrid
+sequence + tabular modeling on equity time series — is a standard
+research pattern documented in the public quantitative-finance
+literature, and was independently re-implemented by the author against
+public data. Nothing in this repository should be construed as
+representing the views, methods, or proprietary work of China Galaxy
+Securities Co., Ltd.
+
 ## Status
 
 Archived as a research artifact. The pipeline is not maintained as a
